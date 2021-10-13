@@ -18,8 +18,7 @@ Default locale: pt_BR, platform encoding: Cp1252
 OS name: "windows 10", version: "10.0", arch: "amd64", family: "windows"
 ```
 ## Inicializando o server
-1 - Baixe o projeto na máquina com `git clone https://github.com/andarino/crud-springBoot.git`
-2 - Após o `clone`. Entre na pasta do projeto.
+1 - Baixe o projeto na máquina com `git clone https://github.com/andarino/crud-springBoot.git`. Após o `clone`. Entre na pasta do projeto.
 ```sh
 cd crud-springBoot/
 ```
