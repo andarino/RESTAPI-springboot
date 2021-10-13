@@ -18,7 +18,7 @@ Default locale: pt_BR, platform encoding: Cp1252
 OS name: "windows 10", version: "10.0", arch: "amd64", family: "windows"
 ```
 ## Inicializando o server
-1 - Baixe o projeto na máquina com `git clone https://github.com/andarino/crud-springBoot.git`. Após o `clone`. Entre na pasta do projeto.
+1 - Baixe o projeto na máquina com `git clone https://github.com/andarino/crud-springBoot.git` Após o `clone`. Entre na pasta do projeto.
 ```sh
 cd crud-springBoot/
 ```
@@ -30,7 +30,7 @@ java -jar projeto-0.0.1-SNAPSHOT.jar.jar
 
 ## Métodos
 O prefixo de todos é  `http://localhost:8080/`.
-Para fazer as requisições você pode usar insomnia ou postman.
+Para fazer as requisições você pode usar o insomnia ou o postman.
 Para a tabela `conta` haverá os endpoints...
 Método | Recurso | Descricão
 -------|---------|----------
