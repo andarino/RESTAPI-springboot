@@ -18,10 +18,10 @@ Default locale: pt_BR, platform encoding: Cp1252
 OS name: "windows 10", version: "10.0", arch: "amd64", family: "windows"
 ```
 ## Inicializando o server
-1 - Baixe o projeto na máquina como `$ git clone https://github.com/andarino/crud-springBoot`
+1 - Baixe o projeto na máquina como `$ git clone https://github.com/andarino/crud-springBoot.git`
 2 - Após o `clone`. Entre na pasta do projeto.
 ```sh
-cd ~/crud-springBoot/projeto
+cd crud-springBoot/
 ```
 Rode o arquivo compilado `projeto-0.0.1-SNAPSHOT.jar` no terminal:
 ```sh
@@ -31,8 +31,8 @@ java -jar projeto-0.0.1-SNAPSHOT.jar.jar
 
 ## Métodos
 O prefixo de todos é  `http://localhost:8080/`.
-
-Para a tabela conta haverá os endpoints...
+Para fazer as requisições você pode usar insomnia ou postman.
+Para a tabela `conta` haverá os endpoints...
 Método | Recurso | Descricão
 -------|---------|----------
 GET| /contas/| Lista todos as contas 
@@ -41,7 +41,7 @@ POST| /conta | Adiciona uma nova conta (envia um json com as informações)
 PUT| /conta | Altera dados de uma conta existente
 DELETE| /contas/{num_conta} |Exclue a conta com a pk informada
 
-Para a tabela lancamento haverá os endpoints...
+Para a tabela `lancamento` haverá os endpoints...
 Método | Recurso | Descricão
 -------|---------|----------
 GET| /lancamento/| Lista todos os lancamentos e a conta associada ao lancamento 
@@ -53,13 +53,13 @@ DELETE| /lancamento/{numLanc} |Exclue a conta com a PK informada
 
 
 ## Requisição
-A requisição suportada é em `json`.
+A requisição suportada é um `json`.
 >Content-Type: application/json
 
 ## Dados para insert nos endpoints
-Os campos disponíveis estão no exemplo abaixo:
+Os exemplos de como os dados devem ser inseridos estão logo abaixo:
 
-conta: 
+Conta: 
 ```json
 {
   "saldo": "8953453456",
@@ -77,7 +77,7 @@ conta:
 ```
 Obs: O campo `"lancamentos"` pode ser null.
 
-lancamento: 
+Lancamento: 
 ```json
 {
   "num_lancamento": 56,
@@ -93,4 +93,4 @@ lancamento:
 }
 
 ```
-Obs: O campo `"num_conta"`deve coincidir com alguma conta previamente cadastrada.
+Obs: O campo `"num_conta"`deve coincidir com alguma conta existente no banco.
