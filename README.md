@@ -1,5 +1,5 @@
-# crud-springBoot
-######  usando JPA, MySQL and Maven 
+# CRUD-springBoot
+######  Projeto para portifólio usando JPA, MySQL and Maven 
 ## Dependências
 * Java:
 ```
