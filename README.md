@@ -11,11 +11,11 @@ OpenJDK 64-Bit Server VM (build 15.0.2+7, mixed mode)
 * Maven:
 ```
 $ mvn --version
-Apache Maven 3.5.4 (1edded0938998edf8bf061f1ceb3cfdeccf443fe; 2018-06-17T14:33:14-04:00)
-Maven home: C:\Program Files\apache-maven-3.5.4
-Java version: 1.8.0_171, vendor: Oracle Corporation, runtime: C:\Program Files\Java\jdk1.8.0_171\jre
-Default locale: pt_BR, platform encoding: Cp1252
-OS name: "windows 10", version: "10.0", arch: "amd64", family: "windows"
+Apache Maven 3.8.2 (NON_CANONICAL)
+Maven home: /opt/maven
+Java version: 15.0.2, vendor: N/A, runtime: /usr/lib/jvm/java-15-openjdk
+Default locale: en_US, platform encoding: UTF-8
+OS name: "linux", version: "5.10.42-1-manjaro", arch: "amd64", family: "unix"
 ```
 ## Inicializando o server
 1 - Baixe o projeto na máquina com `git clone https://github.com/andarino/crud-springBoot.git` Após o `clone`. Entre na pasta do projeto.
