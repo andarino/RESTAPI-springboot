@@ -1,5 +1,8 @@
 ## RESTAPI-springboot
 ######  Projeto para portifólio usando JPA, MySQL and Maven 
+![spring](https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white)
+![mysql](https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white)
+![bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)
 ## Dependências
 * Java:
 ```
