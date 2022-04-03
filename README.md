@@ -33,8 +33,7 @@ java -jar projeto-0.0.1-SNAPSHOT.jar.jar
 
 ## Métodos
 O prefixo de todos é  `http://localhost:8080/`.
-Para fazer as requisições você pode usar o insomnia ou o postman.
-Para a tabela `conta` haverá os endpoints...
+Para a tabela `conta` haverá os endpoints:
 Método | Recurso | Descricão
 -------|---------|----------
 GET| /contas/| Lista todos as contas 
