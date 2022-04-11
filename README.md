@@ -20,16 +20,7 @@ Java version: 15.0.2, vendor: N/A, runtime: /usr/lib/jvm/java-15-openjdk
 Default locale: en_US, platform encoding: UTF-8
 OS name: "linux", version: "5.10.42-1-manjaro", arch: "amd64", family: "unix"
 ```
-## Inicializando o server
-1 - Baixe o projeto na máquina com `git clone https://github.com/andarino/crud-springBoot.git` Após o `clone`. Entre na pasta do projeto.
-```sh
-cd crud-springBoot/
-```
-Rode o arquivo compilado `projeto-0.0.1-SNAPSHOT.jar` no terminal:
-```sh
-java -jar projeto-0.0.1-SNAPSHOT.jar.jar
-```
->O server estará acessível em `http://localhost:8080`
+> O server estará acessível em `http://localhost:8080`
 
 ## Métodos
 O prefixo de todos é  `http://localhost:8080/`.
