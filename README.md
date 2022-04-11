@@ -18,7 +18,7 @@ Método | Recurso | Descricão
 -------|---------|----------
 GET| /contas/| Lista todos as contas 
 GET| /contas/{num_conta}| Lista a conta de acordo com a PK passada 
-POST| /conta | Adiciona uma nova conta (envia um json com as informações)
+POST| /conta | Adiciona uma nova conta (Recebe um json com as informações)
 PUT| /conta | Altera dados de uma conta existente
 DELETE| /contas/{num_conta} |Exclui a conta com a pk informada
 
@@ -27,13 +27,13 @@ Método | Recurso | Descricão
 -------|---------|----------
 GET| /lancamento/| Lista todos os lancamentos e a conta associada ao lancamento 
 GET| /lancamento/{numLanc}| Lista o lancamento de acordo com a PK passada 
-POST| /lancamento | Adiciona um novo lancamento (envia um json com as informações, o campo "conta" também é um json com os parâmetros do insert de "conta")
+POST| /lancamento | Adiciona um novo lancamento (Recebe um json com as informações, o campo "conta" também é um json com os parâmetros do insert de "conta")
 PUT| /lancamento | Altera dados de um lancamento existente
 DELETE| /lancamento/{numLanc} |Exclui a conta com a PK informada
 
 
 
-## Requisição
+## Exemplo de Requisição
 A requisição suportada é um `json`.
 >Content-Type: application/json
 
