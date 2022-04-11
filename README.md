@@ -1,5 +1,7 @@
 ## RESTAPI-springboot
-######  CRUD API com persistência no MySQL com JPA.  
+
+Esta aplicação é uma A RESTful API composta de dois agentes, conta e lançamento.  estas duas entidades estão ligado por uma relação oneToMany, onde uma conta pode ter apenas um lançamento
+
 ![spring](https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white)
 ![mysql](https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white)
 
