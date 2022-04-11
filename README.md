@@ -74,4 +74,4 @@ Lancamento:
 }
 
 ```
-Obs: O campo `"num_conta"`deve coincidir com alguma conta existente no banco.
+Obs: O campo `"num_conta"`deve coincidir com alguma conta pré-existente no banco.
