@@ -4,23 +4,12 @@
 ![mysql](https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white)
 
 ## Dependências
-* Java:
 ```
 $ java --version
 openjdk 15.0.2 2021-01-19
-OpenJDK Runtime Environment (build 15.0.2+7)
-OpenJDK 64-Bit Server VM (build 15.0.2+7, mixed mode)
-```
-* Maven:
-```
 $ mvn --version
-Apache Maven 3.8.2 (NON_CANONICAL)
-Maven home: /opt/maven
-Java version: 15.0.2, vendor: N/A, runtime: /usr/lib/jvm/java-15-openjdk
-Default locale: en_US, platform encoding: UTF-8
-OS name: "linux", version: "5.10.42-1-manjaro", arch: "amd64", family: "unix"
+Apache Maven 3.8.2 
 ```
-> O server estará acessível em `http://localhost:8080`
 
 ## Métodos
 O prefixo de todos é  `http://localhost:8080/`.
